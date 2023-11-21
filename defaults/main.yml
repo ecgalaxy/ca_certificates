@@ -1,0 +1,8 @@
+---
+ca_certificates_download:
+  - { url: "http://commissign.pki.ec.europa.eu/info/aia/RootCA.crt",
+      checksum: "sha256:c968b9f102f0df46a1d67eb4f7ecfaaa5568cff6c98d8d821bf51b602ef887ca",
+      filename: "commissign-2-root.crt" }
+  - { url: "http://commissign.pki.ec.europa.eu/info/aia/onlineCA.crt",
+      checksum: "sha256:4b2861f00fffa866f8865438ba064e073b76f74f6d3a199615ca38c5e1271817",
+      filename: "commissign-2-online.crt" }

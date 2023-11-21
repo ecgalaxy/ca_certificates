@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: Include ca_certificates
+      ansible.builtin.include_role:
+        name: ca_certificates
+  environment:
+    http_proxy: "{{ lookup('env', 'http_proxy') }}"
+    https_proxy: "{{ lookup('env', 'https_proxy') }}"
+    no_proxy: "{{ lookup('env', 'no_proxy') }}"
