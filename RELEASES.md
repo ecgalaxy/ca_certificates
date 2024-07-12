@@ -1,5 +1,9 @@
 # Releases
 
+## 0.2.x
+
+- RHEL 9 and Ubuntu 24.04 LTS support added.
+
 ## 0.1.x
 
 - Initial role implementation.

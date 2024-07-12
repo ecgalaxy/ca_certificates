@@ -1,7 +1,7 @@
 ECGALAXY ca_certificates role
 ========
 
-Installs the ca-certificates package and adds certificates to the list of trusted CAs.
+Ansible role which installs the ca-certificates package and adds certificates to the list of trusted CAs.
 
 By default [CommisSign-2 CA certificates](https://commissign.pki.ec.europa.eu/index_en.htm)
 are downloaded and added to the list.
