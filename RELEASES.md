@@ -1,5 +1,9 @@
 # Releases
 
+## 0.3.x
+
+- CommisSign intermediate certificate updated.
+
 ## 0.2.x
 
 - RHEL 9 and Ubuntu 24.04 LTS support added.
